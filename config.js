@@ -15,14 +15,14 @@ const documents = [
     description: 'Current transcript from Master',
     filename: 'transcript_jr_eur.pdf',
     type: 'transcript'
-},
+    },
     {
     id: 'ubt',
     title: 'Bachelor Transcript',
     description: 'Bachelor Transcript',
     filename: 'zeugnis_ubt.pdf',
     type: 'transcript'
-},
+    },
     {
         id: 'Johannes_Renz_Thesis_p.pdf',
         title: 'Bachelor Thesis',
