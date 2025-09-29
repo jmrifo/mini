@@ -38,7 +38,7 @@ const documents = [
         type: 'paper'
     },
     {
-        id: 'Machine_Learning2_ Renz.pdf',
+        id: 'Machine_Learning2_Renz.pdf',
         title: 'Machine Learning Paper 2',
         description: 'Clustering Countries for Development Assistance',
         filename: 'Machine_Learning2_ Renz.pdf',
