@@ -3,14 +3,14 @@
 
 const documents = [
     {
-        id: 'cv_jr_44',
+        id: 'CV_JR-44.pdf',
         title: 'Curriculum Vitae (JR)',
         description: 'CV',
         filename: 'CV_JR-44.pdf',
         type: 'cv'
     },
     {
-        id: 'full_paper_central_banks',
+        id: 'Full_Paper_central_banks.pdf',
         title: 'Fed ESG',
         description: 'Paper on Federal Reserve's Communication on Social and Climate issues.',
         filename: 'Full_Paper_central_banks.pdf',
