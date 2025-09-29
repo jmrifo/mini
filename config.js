@@ -31,24 +31,24 @@ const documents = [
         type: 'paper'
     },
     {
-        id: 'Full_Paper_central_banks.pdf',
-        title: 'Fed ESG',
-        description: 'Paper on Federal Reserves Communication on Social and Climate issues.',
-        filename: 'Full_Paper_central_banks.pdf',
+        id: 'NLP_Becker_Renz.pdf',
+        title: 'NLP Project',
+        description: 'Changes in Corporate Language',
+        filename: 'NLP_Becker_Renz.pdf',
         type: 'paper'
     },
-    {
+        {
         id: 'Machine_Learning2_Renz.pdf',
         title: 'Machine Learning Paper 2',
         description: 'Clustering Countries for Development Assistance',
         filename: 'Machine_Learning2_ Renz.pdf',
         type: 'paper'
     },
-    {
-        id: 'NLP_Becker_Renz.pdf',
-        title: 'NLP Project',
-        description: 'Changes in Corporate Language',
-        filename: 'NLP_Becker_Renz.pdf',
+        {
+        id: 'Full_Paper_central_banks.pdf',
+        title: 'Fed ESG',
+        description: 'Paper on Federal Reserves Communication on Social and Climate issues.',
+        filename: 'Full_Paper_central_banks.pdf',
         type: 'paper'
     },
     {
