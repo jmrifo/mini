@@ -20,7 +20,7 @@ body {
 /* Sidebar styles */
 .sidebar {
     width: 300px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #111 0%, #444 100%);
     color: white;
     padding: 0;
     position: fixed;
@@ -67,13 +67,13 @@ body {
 }
 
 .nav-link:hover {
-    background-color: rgba(255,255,255,0.1);
-    border-left-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.1);
+    border-left-color: rgba(0,0,0,0.5);
 }
 
 .nav-link.active {
-    background-color: rgba(255,255,255,0.15);
-    border-left-color: white;
+    background-color: rgba(0,0,0,0.15);
+    border-left-color: #111;
 }
 
 .nav-link .title {
@@ -116,36 +116,6 @@ body {
     margin-bottom: 3rem;
 }
 
-.instructions {
-    background-color: #f8f9fa;
-    padding: 2rem;
-    border-radius: 8px;
-    text-align: left;
-    border: 1px solid #e9ecef;
-}
-
-.instructions h3 {
-    margin-bottom: 1rem;
-    color: #495057;
-}
-
-.instructions ol {
-    padding-left: 1.5rem;
-}
-
-.instructions li {
-    margin-bottom: 0.5rem;
-    color: #6c757d;
-}
-
-.instructions code {
-    background-color: #e9ecef;
-    padding: 0.2rem 0.4rem;
-    border-radius: 3px;
-    font-family: 'Courier New', monospace;
-    color: #495057;
-}
-
 /* PDF viewer styles */
 .pdf-viewer {
     max-width: 1200px;
@@ -186,12 +156,12 @@ body {
 }
 
 .btn-primary {
-    background-color: #667eea;
+    background-color: #222;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #5a6fd8;
+    background-color: #444;
     transform: translateY(-2px);
 }
 
@@ -224,7 +194,7 @@ body {
     top: 1rem;
     left: 1rem;
     z-index: 1000;
-    background: #667eea;
+    background: #222;
     border: none;
     border-radius: 5px;
     padding: 0.5rem;
@@ -266,10 +236,6 @@ body {
     
     .welcome-screen > p {
         font-size: 1rem;
-    }
-    
-    .instructions {
-        padding: 1.5rem;
     }
     
     .pdf-actions {
