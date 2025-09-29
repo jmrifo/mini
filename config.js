@@ -10,18 +10,18 @@ const documents = [
         type: 'cv'
     },
     {
-    id: 'eur',
-    title: 'Master current Transcript',
-    description: 'Current transcript from Master',
-    filename: 'transcript_jr_eur.pdf',
-    type: 'transcript'
+        id: 'eur',
+        title: 'Master current Transcript',
+        description: 'Current transcript from Master',
+        filename: 'transcript_jr_eur.pdf',
+        type: 'transcript'
     },
     {
-    id: 'ubt',
-    title: 'Bachelor Transcript',
-    description: 'Bachelor Transcript',
-    filename: 'zeugnis_ubt.pdf',
-    type: 'transcript'
+        id: 'ubt',
+        title: 'Bachelor Transcript',
+        description: 'Bachelor Transcript',
+        filename: 'zeugnis_ubt.pdf',
+        type: 'transcript'
     },
     {
         id: 'Johannes_Renz_Thesis_p.pdf',
@@ -37,14 +37,14 @@ const documents = [
         filename: 'NLP_Becker_Renz.pdf',
         type: 'paper'
     },
-        {
+    {
         id: 'Machine_Learning2_Renz.pdf',
         title: 'Machine Learning Paper 2',
         description: 'Clustering Countries for Development Assistance',
         filename: 'Machine_Learning2_ Renz.pdf',
         type: 'paper'
     },
-        {
+    {
         id: 'Full_Paper_central_banks.pdf',
         title: 'Fed ESG',
         description: 'Paper on Federal Reserves Communication on Social and Climate issues.',
