@@ -2,46 +2,48 @@
 // Add new documents here and they will automatically appear in the sidebar
 
 const documents = [
-    // Example CV entry - replace with your actual CV
     {
-        id: 'cv',
-        title: 'Curriculum Vitae',
-        description: 'My professional CV and experience',
-        filename: 'cv.pdf',
+        id: 'cv_jr_44',
+        title: 'Curriculum Vitae (JR)',
+        description: 'CV',
+        filename: 'CV_JR-44.pdf',
         type: 'cv'
+    },
+    {
+        id: 'full_paper_central_banks',
+        title: 'Fed ESG',
+        description: 'Paper on Federal Reserve's Communication on Social and Climate issues.',
+        filename: 'Full_Paper_central_banks.pdf',
+        type: 'paper'
+    },
+    {
+        id: 'johannes_renz_thesis',
+        title: 'Bachelor Thesis',
+        description: 'Bachelor Thesis: Gender Differences in CEO Dismissals',
+        filename: 'Johannes_Renz_Thesis_p.pdf',
+        type: 'paper'
+    },
+    {
+        id: 'machine_learning2_renz',
+        title: 'Machine Learning Paper 2',
+        description: 'Clustering Countries for Development Assistance',
+        filename: 'Machine_Learning2_ Renz.pdf',
+        type: 'paper'
+    },
+    {
+        id: 'nlp_becker_renz',
+        title: 'NLP Project',
+        description: 'Changes in Corporate Language',
+        filename: 'NLP_Becker_Renz.pdf',
+        type: 'paper'
+    },
+    {
+        id: 'paper_jr_narratives',
+        title: 'We-Narratives in Political Coalitions',
+        description: 'We-Narratives in Political Coalitions',
+        filename: 'Paper_JR_narratives.pdf',
+        type: 'paper'
     }
-
-    // Example paper entries - uncomment and modify as needed:
-    /*
-    {
-        id: 'research-paper-1',
-        title: 'Machine Learning Research',
-        description: 'Advanced algorithms for data analysis',
-        filename: 'research-paper-1.pdf',
-        type: 'paper'
-    },
-    {
-        id: 'thesis',
-        title: 'Master\'s Thesis',
-        description: 'Comprehensive study on artificial intelligence applications',
-        filename: 'thesis.pdf',
-        type: 'paper'
-    },
-    {
-        id: 'conference-paper',
-        title: 'Conference Presentation',
-        description: 'Paper presented at International Tech Conference 2024',
-        filename: 'conference-paper.pdf',
-        type: 'paper'
-    },
-    {
-        id: 'journal-article',
-        title: 'Journal Article',
-        description: 'Published research in Nature Computing',
-        filename: 'nature-article-2024.pdf',
-        type: 'paper'
-    }
-    */
 ];
 
 // How to add new documents:
