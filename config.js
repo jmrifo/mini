@@ -10,6 +10,13 @@ const documents = [
         type: 'cv'
     },
     {
+        id: 'Johannes_Renz_Thesis_p.pdf',
+        title: 'Bachelor Thesis',
+        description: 'Bachelor Thesis: Gender Differences in CEO Dismissals',
+        filename: 'Johannes_Renz_Thesis_p.pdf',
+        type: 'paper'
+    },
+    {
         id: 'Full_Paper_central_banks.pdf',
         title: 'Fed ESG',
         description: 'Paper on Federal Reserve's Communication on Social and Climate issues.',
@@ -17,28 +24,21 @@ const documents = [
         type: 'paper'
     },
     {
-        id: 'johannes_renz_thesis',
-        title: 'Bachelor Thesis',
-        description: 'Bachelor Thesis: Gender Differences in CEO Dismissals',
-        filename: 'Johannes_Renz_Thesis_p.pdf',
-        type: 'paper'
-    },
-    {
-        id: 'machine_learning2_renz',
+        id: 'Machine_Learning2_ Renz.pdf',
         title: 'Machine Learning Paper 2',
         description: 'Clustering Countries for Development Assistance',
         filename: 'Machine_Learning2_ Renz.pdf',
         type: 'paper'
     },
     {
-        id: 'nlp_becker_renz',
+        id: 'NLP_Becker_Renz.pdf',
         title: 'NLP Project',
         description: 'Changes in Corporate Language',
         filename: 'NLP_Becker_Renz.pdf',
         type: 'paper'
     },
     {
-        id: 'paper_jr_narratives',
+        id: 'Paper_JR_narratives.pdf',
         title: 'We-Narratives in Political Coalitions',
         description: 'We-Narratives in Political Coalitions',
         filename: 'Paper_JR_narratives.pdf',
