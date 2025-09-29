@@ -11,15 +11,15 @@ const documents = [
     },
     {
         id: 'eur',
-        title: 'Master current Transcript',
-        description: 'Current transcript from Master',
+        title: 'Current transcript from Master',
+        description: ' ',
         filename: 'transcript_jr_eur.pdf',
         type: 'transcript'
     },
     {
         id: 'ubt',
         title: 'Bachelor Transcript',
-        description: 'Bachelor Transcript',
+        description: ' ',
         filename: 'zeugnis_ubt.pdf',
         type: 'transcript'
     },
@@ -41,7 +41,7 @@ const documents = [
         id: 'Machine_Learning2_Renz.pdf',
         title: 'Machine Learning Paper 2',
         description: 'Clustering Countries for Development Assistance',
-        filename: 'Machine_Learning2_ Renz.pdf',
+        filename: 'Machine_Learning2_Renz.pdf',
         type: 'paper'
     },
     {
