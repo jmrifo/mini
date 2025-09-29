@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Portfolio - Papers & CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>Portfolio</h1>
+                <p class="subtitle">Papers & CV</p>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <!-- Navigation items will be populated by JavaScript -->
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div class="welcome-screen" id="welcome-screen">
+                <h1>Welcome to My Academic Portfolio</h1>
+                <p>Select a paper or my CV from the sidebar to view the document.</p>
+                <div class="instructions">
+                    <h3>How to add new documents:</h3>
+                    <ol>
+                        <li>Add your PDF file to the <code>pdfs/</code> directory</li>
+                        <li>Update the <code>config.js</code> file with the document details</li>
+                        <li>The sidebar will automatically update with your new document</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="pdf-viewer" id="pdf-viewer" style="display: none;">
+                <div class="pdf-header">
+                    <h2 id="pdf-title">Document Title</h2>
+                    <p id="pdf-description">Document description</p>
+                    <div class="pdf-actions">
+                        <a id="pdf-download" href="#" target="_blank" class="btn btn-primary">Download PDF</a>
+                        <a id="pdf-view" href="#" target="_blank" class="btn btn-secondary">Open in New Tab</a>
+                    </div>
+                </div>
+                <div class="pdf-container">
+                    <iframe id="pdf-frame" src="" width="100%" height="600px" frameborder="0"></iframe>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Mobile menu toggle -->
+    <button class="mobile-toggle" id="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
