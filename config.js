@@ -46,7 +46,7 @@ const documents = [
     },
     {
         id: 'Full_Paper_central_banks.pdf',
-        title: 'Fed ESG',
+        title: 'Fed Communciation',
         description: 'Paper on Federal Reserves Communication on Social and Climate issues.',
         filename: 'Full_Paper_central_banks.pdf',
         type: 'paper'
